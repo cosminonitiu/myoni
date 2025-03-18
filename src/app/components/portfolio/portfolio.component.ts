@@ -15,6 +15,20 @@ export class PortfolioComponent implements OnInit {
 
   public devProjects = [
     {
+      name: 'AI Reviewer Integration',
+      description: 'Integration of AI Reviewer into a .Net application deployment',
+      tags: ['React', 'Azure', 'Terraform', 'Kubernetes'],
+      htmlname: 'ai-reviewer',
+      image: 'assets/PROJECT-AIReviewer/AIReviewer-2.png',
+    },
+    {
+      name: 'Survey Management and Data Analysis System',
+      description: 'Survey Management and Data Analysis System',
+      tags: ['Angular', '.Net', 'Azure', 'Kubernetes'],
+      htmlname: 'wise',
+      image: 'assets/PROJECT-Wise/Wise-7.jpeg',
+    },
+    {
       name: 'WORK: Internal File Transfer',
       description: 'File Transfer Application, wrapper over S3 and SFTPGO (sftp daemon)',
       tags: ['.Net', 'Angular', 'SFTPGO', 'AWS-Services'],
@@ -142,6 +156,133 @@ export class PortfolioComponent implements OnInit {
     },
   ];
   public devHtmls: { [key: string]: any } = {
+    "wise": [
+      ["h1-nolink", ["PROJECT OVERVIEW"]],
+      ["p", [
+        "The application is a comprehensive enterprise solution designed to transform how organizations gather insights, measure performance, and drive organizational success. The platform combines powerful survey capabilities with advanced analytics to deliver actionable insights that drive business decisions."
+      ]],
+      ["h1-nolink", ["Core Capabilities"]],
+      ["h4-nolink", ["Intelligent Survey Management"]],
+      ["ul", [
+        "Dynamic survey creation with multiple question types",
+        "Automated survey distribution via QR codes",
+        "Demographic data collection for deeper insights",
+        "Template library for quick deployment",
+        "Real-time survey monitoring and response tracking"
+      ]],
+      ["h4-nolink", ["Strategic Project Management"]],
+      ["ul", [
+        "Structured project organization with customizable folders",
+        "Ready-to-use project templates for quick deployment",
+        "Comprehensive project tracking and status monitoring",
+        "Flexible project-specific configurations"
+      ]],
+      ["h4-nolink", ["Advanced Analytics & Reporting"]],
+      ["ul", [
+        "Professional PDF report generation",
+        "Excel export capabilities for detailed analysis",
+        "Custom KPI tracking and monitoring",
+        "Interactive data visualizations",
+        "Demographic analysis for targeted insights",
+        "Customer journey mapping",
+        "Granular data filtering for precise analysis"
+      ]],
+      ["h4-nolink", ["Enterprise-Grade User Management"]],
+      ["ul", [
+        "Role-based access control (Admin and User roles)",
+        "Secure user impersonation for support",
+        "Personalized user preferences",
+        "Multi-language support for global operations"
+      ]],
+      ["h4-nolink", ["Organizational Structure Management"]],
+      ["ul", [
+        "Comprehensive employee data management",
+        "Flexible organizational structure mapping",
+        "Employee survey response tracking",
+        "Granular reporting by department or team"
+      ]],
+      ["h4-nolink", ["Enterprise Integration & Security"]],
+      ["ul", [
+        "Real-time data synchronization",
+        "Customizable branding and theming",
+        "Secure cloud storage integration",
+        "Enterprise-grade security measures",
+        "API access for system integration"
+      ]],
+      ["h4-nolink", ["Business Benefits"]],
+      ["ul", [
+        "Streamlining the feedback collection process",
+        "Providing actionable insights for decision-making",
+        "Supporting data-driven performance management",
+        "Enabling global operations with multi-language support",
+        "Ensuring secure and compliant data handling",
+        "Facilitating organizational change through insights"
+      ]],
+      ["h4-nolink", ["Ideal For"]],
+      ["ul", [
+        "Organizations conducting comprehensive employee engagement surveys",
+        "Companies tracking and improving organizational performance",
+        "Businesses requiring detailed analytical reports",
+        "Enterprises managing multiple feedback initiatives",
+        "Global organizations requiring multi-language support",
+        "Companies maintaining complex organizational structures"
+      ]],
+      ["img", "assets/PROJECT-Wise/Wise-2.PNG"],
+      ["img", "assets/PROJECT-Wise/Wise-3.PNG"],
+      ["img", "assets/PROJECT-Wise/Wise-4.PNG"],
+      ["img", "assets/PROJECT-Wise/Wise-5.PNG"],
+      ["img", "assets/PROJECT-Wise/Wise-6.PNG"]  
+    ],
+    "ai-reviewer": [
+      ["h1-nolink" , ["PROJECT OVERVIEW"]],
+      ["p", [
+        "The AI Reviewer is an enterprise-grade application designed to provide intelligent code review and documentation assistance. This sophisticated system leverages cutting-edge AI technologies to analyze code, generate documentation, and provide actionable feedback throughout the development lifecycle."
+      ]],
+      ["h4-nolink", ["Architecture & Infrastructure"]],
+      ["p", [
+        "The project implements a modern, cloud-native architecture on Azure, utilizing Infrastructure as Code (IaC) principles and container orchestration. The infrastructure is entirely managed through Terraform, with state management handled via GitLab, ensuring version control and collaboration capabilities."
+      ]],
+      ["img", "assets/PROJECT-AIReviewer/AIReviewer.png"],
+      ["h1-nolink", ["Key Components"]],
+      ["h4-nolink", ["Infrastructure Layer"]],
+      ["ul", [
+        "Azure Kubernetes Service (AKS) for container orchestration",
+        "Azure Container Registry for container image management",
+        "Azure OpenAI Service integration (prepared for future implementation)",
+        "Elasticsearch cluster for comprehensive code history and diff analysis"
+      ]],
+      ["h4-nolink", ["Application Layer"]],
+      ["ul", [
+        ".NET Backend with Swagger documentation",
+        "React-based Frontend with modern UI/UX",
+        "GPT-4 API integration for intelligent analysis"
+      ]],
+      ["h4-nolink", ["CI/CD Pipeline"]],
+      ["ul", [
+        "GitLab CI/CD with OpenTofu integration",
+        "Automated infrastructure deployment",
+        "Webhook-based triggers for automated code review"
+      ]],
+      ["h4-nolink", ["Core Features"]],
+      ["ul", [
+        "Intelligent Code Review: Automated analysis of code changes with AI-powered suggestions",
+        "Pipeline Analysis: GPT-4 powered analysis of pipeline failures with actionable recommendations",
+        "Documentation Generation: Automated documentation creation from code analysis",
+        "GitLab Integration: Automated comments on merge requests with code improvement suggestions",
+        "Comprehensive Code History: Elasticsearch-powered searchable repository of all commits and changes"
+      ]],
+      ["h4-nolink", ["Technical Highlights"]],
+      ["ul", [
+        "Infrastructure as Code: Complete infrastructure managed through Terraform",
+        "Container Orchestration: Kubernetes-based deployment for scalability and reliability",
+        "AI Integration: Advanced GPT-4 API utilization for intelligent analysis",
+        "Search Capabilities: Elasticsearch implementation for efficient code history retrieval",
+        "API Documentation: Swagger integration for comprehensive API documentation"
+      ]],
+      ["img", "assets/PROJECT-AIReviewer/AIReviewer-2.png"],
+      ["img", "assets/PROJECT-AIReviewer/AIReviewer-3.png"],
+      ["img", "assets/PROJECT-AIReviewer/AIReviewer-4.png"]
+    ],
     "file-transfer": [
       ["h1-nolink" , ["PROJECT OVERVIEW"]],
       ["p", [

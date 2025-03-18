@@ -34,11 +34,6 @@ export class ProgrammingLanguagesComponent implements OnInit {
       src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg',
     },
     {
-      title: 'HTML + CSS/SCSS/SASS',
-      text: 'Alongside JavaScript and TypeScript, I have experience with HTML, CSS/SCSS/SASS for building and styling websites and web applications. I implemented responsive design and user experience best practices to ensure optimal accessibility across devices.',
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
-    },
-    {
       title: 'Bash/ Shell',
       text: 'I utilized Bash and Shell scripting for various purposes, including automation, system administration, and deployment tasks. These scripting languages allowed me to automate repetitive tasks and streamline your development processes.',
       src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg',
@@ -71,7 +66,7 @@ export class ProgrammingLanguagesComponent implements OnInit {
       src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
     },
     {
-      title: 'Website Builders',
+      title: 'Lowcode Platforms',
       text: 'I have worked with Wordpress, Webflow and Bubble to develop custom websites and web applications.Web builders provides a user-friendly content management system (CMS) that allows me to create dynamic and interactive websites with ease. I am familiar with customizing themes, implementing plugins, and extending Wordpress/Webflow functionality to meet specific client requirements.',
       src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg',
     },
@@ -84,11 +79,6 @@ export class ProgrammingLanguagesComponent implements OnInit {
       title: 'Django/Flask',
       text: 'Django or Flask servers are used across work and personal projects, one of the main projects at my work is developed in flask and some of my bigger projects use Django servers made following Domain driver design patterns',
       src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg',
-    },
-    {
-      title: 'Tailwind/Bootstrap/Chakra',
-      text: 'I am skilled in working with CSS frameworks like Tailwind and Bootstrap, Chakra. These frameworks provide pre-designed components, responsive layouts, and utility classes that expedite front-end development. I can leverage these frameworks to create visually appealing and mobile-friendly user interfaces while adhering to best practices and accessibility standards.',
-      src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg',
     },
     {
       title: 'ORMs',
@@ -123,7 +113,7 @@ export class ProgrammingLanguagesComponent implements OnInit {
       src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg'
     },
     {
-      title: 'Docker + Kubernetes',
+      title: 'Docker + Kubernetes + Terraform',
       text: 'Kubernetes has become the standard orchestration platform for containers, and we combine it with docker for all of our recent projects',
       src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'
     }
